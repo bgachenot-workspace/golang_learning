@@ -1,1 +1,4 @@
 go mod edit -replace example.com/greetings=../greetings
+
+go build
+go install
